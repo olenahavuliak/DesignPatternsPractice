@@ -6,8 +6,8 @@ public class PlugTypeFToTypeCAdapter extends PlugTypeC{
         this.plugTypeF = plugTypeF;
     }
     @Override
-    void plugTypeC(){
-        plugTypeF.plugTypeF();
+    void connectToPlugTypeC(){
+        plugTypeF.connectToPlugTypeF();
         System.out.println("Adapted: Type F plug adapted to Type C.");
     }
 

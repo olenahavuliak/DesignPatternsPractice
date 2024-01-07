@@ -4,7 +4,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 public class PlugTypeF {
-    void plugTypeF() {
+    void connectToPlugTypeF() {
         System.out.println("Plug of Type F connected.");
     }
 }

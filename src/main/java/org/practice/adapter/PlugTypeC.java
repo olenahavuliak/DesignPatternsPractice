@@ -1,7 +1,7 @@
 package org.practice.adapter;
 
 public class PlugTypeC {
-    void plugTypeC() {
+    void connectToPlugTypeC() {
         System.out.println("Plug of Type C connected.");
     }
 }

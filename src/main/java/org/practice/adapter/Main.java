@@ -9,6 +9,6 @@ public class Main {
     }
 
     static void usePlugTypeC(PlugTypeC plugTypeC) {
-        plugTypeC.plugTypeC();
+        plugTypeC.connectToPlugTypeC();
     }
 }
